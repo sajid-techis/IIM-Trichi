@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.videocomponet {
+  position: relative;
+}
+
+.videocomponet p {
+  position: absolute;
+  bottom: 10rem;
+  left: 20rem;
+}
+
+.carousel {
+  border-radius: 0 !important;
+}
+
+.carousel img {
+  border-radius: 0 !important;
+}
