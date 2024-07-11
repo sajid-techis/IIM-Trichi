@@ -4,14 +4,14 @@ import React from 'react'
 const Programs = () => {
     return (
 
-        <div className="py-12 bg-gray-100">
+        <div className="py-12 bg-gray-100 w-full">
             <div className='flex justify-center'>
                 <h1 className='text-blue-500 text-4xl font-bold'>Academic Programmes</h1>
             </div>
             <div className='w-[80%] mx-auto'>
                 <h2 className='text-3xl mb-4 font-bold'>Post Graduate Programmes</h2>
             </div>
-            <div className='md:w-4/5  mx-auto my-8 flex flex-col md:flex-row items-center gap-6'>
+            <div className='w-full md:w-4/5 xl:w-3/4 mx-auto flex flex-col md:flex-row items-center gap-6'>
                 <Card
                     className="max-w-sm"
                 >
@@ -77,7 +77,7 @@ const Programs = () => {
             <div className='w-[80%] mx-auto'>
                 <h2 className='text-3xl mb-4 font-bold'>Doctoral Programmes</h2>
             </div>
-            <div className='md:w-4/5  mx-auto my-8 flex flex-col md:flex-row items-center gap-6'>
+            <div className='w-full md:w-4/5 xl:w-3/4 mx-auto flex flex-col md:flex-row items-center gap-6'>
             <Card
                     className="max-w-xl"
                 >
@@ -123,7 +123,7 @@ const Programs = () => {
             <div className='w-[80%] mx-auto'>
                 <h2 className='text-3xl mb-4 font-bold'>Executive Education</h2>
             </div>
-            <div className='md:w-4/5  mx-auto my-8 flex flex-col md:flex-row items-center gap-6'>
+            <div className='w-full md:w-4/5 xl:w-3/4 mx-auto flex flex-col md:flex-row items-center gap-6'>
                 <Card
                     className="max-w-sm"
                 >
